@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "type-check": "tsc --noEmit",
-    "test": "node --import tsx --test 'tests/**/*.test.ts'",
+    "test": "node --import tsx --test tests/",
     "ci": "npm run lint && npm run type-check && npm run test && npm run build"
   },
   "dependencies": {
